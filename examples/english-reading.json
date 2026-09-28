@@ -1,0 +1,96 @@
+{
+  "schema": 1,
+  "id": "english-reading-v1",
+  "title": "读懂转折，也读懂边界",
+  "subject": "英语阅读 · 自编专项练习",
+  "scope": "四道题，练习转折、证据和推断范围。自编材料，不是六级真题，不预测官方成绩。",
+  "minutes": 12,
+  "sources": [
+    {
+      "id": "passage",
+      "title": "A library after dark · 自编短文",
+      "text": "Northbridge College opened its library until midnight for a four-week trial. Many students welcomed the extra hours. However, the number of books borrowed barely changed. What increased was the use of quiet study desks after 9 p.m.\n\nA survey of 80 evening visitors found that 52 mainly came for a quiet place to work. Only 12 said borrowing books was their main reason. The remaining visitors gave other reasons. These responses describe the people surveyed, not every student at the college.\n\nThe library director proposed keeping the late hours during exam weeks, rather than throughout the year. She also asked for another trial in a different term before making a permanent decision. More visitors did not by itself show that their grades had improved."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "single",
+      "skill": "转折与重点",
+      "prompt": "What changed most clearly during the trial?",
+      "options": [
+        "Students borrowed far more books.",
+        "More people used quiet desks after 9 p.m.",
+        "All students preferred to study at midnight.",
+        "Students received higher grades."
+      ],
+      "answer": [
+        1
+      ],
+      "source_id": "passage",
+      "location": "第 1 段",
+      "evidence": "What increased was the use of quiet study desks after 9 p.m.",
+      "explanation": "B 对应原文。A 与 barely changed 冲突；C 扩大为所有学生；D 没有成绩证据。",
+      "hint": "留意 However 前后：欢迎延时，并不等于借书增加。"
+    },
+    {
+      "id": "q2",
+      "type": "single",
+      "skill": "样本与推断范围",
+      "prompt": "Which conclusion is supported by the survey?",
+      "options": [
+        "Most students in the whole college wanted late hours.",
+        "All evening visitors came to borrow books.",
+        "Among the 80 visitors surveyed, quiet work was the most common main reason.",
+        "Exactly 16 students at the college had no reason to visit."
+      ],
+      "answer": [
+        2
+      ],
+      "source_id": "passage",
+      "location": "第 2 段",
+      "evidence": "A survey of 80 evening visitors found that 52 mainly came for a quiet place to work.",
+      "explanation": "52/80 超过一半，结论仅针对受访者。剩余 16 人给了其他理由，不能说没有理由，更不能推广到全校。",
+      "hint": "先圈出调查对象，再检查选项有没有偷偷扩大范围。"
+    },
+    {
+      "id": "q3",
+      "type": "multiple",
+      "skill": "建议的边界",
+      "prompt": "Which TWO actions did the director propose?",
+      "options": [
+        "Keep late hours during exam weeks.",
+        "Keep the library open until midnight all year immediately.",
+        "Run another trial in a different term.",
+        "Stop the trial because grades fell."
+      ],
+      "answer": [
+        0,
+        2
+      ],
+      "source_id": "passage",
+      "location": "第 3 段",
+      "evidence": "The library director proposed keeping the late hours during exam weeks, rather than throughout the year. She also asked for another trial in a different term before making a permanent decision.",
+      "explanation": "A 与 C 是明确建议。B 与 rather than 相反；D 无依据。多选只有完整选中 A、C 才得 1 分。",
+      "hint": "分别找 proposed 和 asked for 后面的行动。"
+    },
+    {
+      "id": "q4",
+      "type": "truefalse",
+      "skill": "证据与因果",
+      "prompt": "The passage establishes that the trial improved students’ grades.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": [
+        1
+      ],
+      "source_id": "passage",
+      "location": "第 3 段",
+      "evidence": "More visitors did not by itself show that their grades had improved.",
+      "explanation": "False。到访增加不等于成绩提高；文中没有建立这一结论。",
+      "hint": "区分“更多人来”和“学习成绩变好”两种证据。"
+    }
+  ]
+}

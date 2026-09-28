@@ -1,0 +1,130 @@
+{
+  "schema": 1,
+  "id": "cet6-careful-reading-v2",
+  "title": "英语六级 · 仔细阅读陪练",
+  "subject": "CET6 阅读理解 · 仔细阅读专项",
+  "scope": "首轮一篇自编英文短文，5 道四选一题；错题在第二篇新短文中复测。题型参照教育部教育考试院说明；不是历年真题，不换算官方成绩。",
+  "minutes": 15,
+  "profile": {
+    "exam": "大学英语六级（CET6）",
+    "module": "阅读理解 · 仔细阅读",
+    "material": "官方题型说明＋小水自编短文 A；复测使用自编短文 B",
+    "goal": "定位主旨、细节、推断、词义和态度；按错题生成下一轮"
+  },
+  "sources": [
+    {
+      "id": "passage-a",
+      "title": "Passage A · The Repair Desk · 自编",
+      "text": "At Riverton University, a group of students opened a weekly repair desk in the campus library. Visitors could bring a broken lamp, a damaged backpack or a bicycle light and learn how to fix it with help from volunteers. The organizers hoped that repairing ordinary objects would reduce waste. They also wanted students who had never held a screwdriver to feel comfortable asking practical questions.\n\nDuring its first term, the desk recorded 186 visits. At the end of each visit, volunteers asked whether the object was working again. About two thirds of the visitors said yes. That sounded encouraging, but the volunteers soon noticed a problem with the figure: some visitors came back with the same object, while others brought several objects on one visit. A count of visits could not tell them exactly how many objects had been saved from disposal. The desk's publicity had suggested that every successful visit kept an item out of the trash. After examining its records, the team removed that claim. They could still describe what happened during visits, but not the longer life of every object.\n\nThe team then asked what kept people from repairing things on their own. Cost mattered, but many students mentioned a different obstacle. They did not know which tool to use, and they worried that an unsuccessful attempt would make the damage worse. One volunteer described this hesitation as friction: a set of small difficulties that makes a useful action less likely to happen. A short demonstration often removed more of that friction than a free replacement part did.\n\nNot every repair succeeded. Some devices required parts that the desk could not obtain, and the volunteers refused to open products with damaged batteries. The desk displayed these limits openly. It also began recording whether a visitor learned a technique that might be useful again, even when the original object could not be fixed. This change reflected a broader view of success: the project was teaching people as well as repairing things.\n\nThe university is considering a second desk in another building. The organizers support the idea, but they are cautious about using the first term's figures as proof that the whole campus has changed its habits. People who chose to visit a repair desk were probably already more interested in repair than other students. Before expanding, the team wants to compare several terms of records and ask visitors what happened to the objects months later. For now, the project offers a promising service and a reminder that a popular activity is not automatically a measured environmental benefit."
+    },
+    {
+      "id": "passage-b",
+      "title": "Passage B · A Library Seat Map · 自编迁移短文",
+      "text": "When Elmbridge College introduced a live map of available library seats, students praised it for saving them a walk across campus. The map used sensors to show which areas were likely to have empty desks, but it did not reserve any seat. In the first month, 1,200 students opened the map at least once. The number was widely shared, although it said little about whether the map helped students study better.\n\nThe library later surveyed 150 students who had used the map more than once. Most said it made finding a desk easier. Yet the library could not assume that all students felt the same way: those who never used the map were not included in the survey. Staff also found that the map was least accurate during short breaks between classes, when people moved quickly and sensors updated slowly.\n\nRather than call the trial a complete success or abandon it, the library decided to explain the delay on the screen and improve the sensors. It planned a second survey that would include non-users. The staff viewed the map as a useful guide, not a guarantee that a seat would still be empty by the time someone arrived."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1", "type": "single", "skill": "主旨概括",
+      "prompt": "What is the passage mainly about?",
+      "options": ["A student repair desk shows promise, but its effects require careful measurement.", "The university has proved that students now produce much less waste.", "Repairing devices is usually more expensive than replacing them.", "The library has decided to close its weekly repair desk."],
+      "answer": [0], "source_id": "passage-a", "location": "第 1—5 段",
+      "evidence": "a popular activity is not automatically a measured environmental benefit.",
+      "explanation": "A 同时保留项目价值与数据边界。B 把影响说成已证实；C 不是全文中心；D 与准备扩展相反。",
+      "hint": "主旨要覆盖项目的价值和末段的限制。",
+      "option_feedback": ["抓住了文章的两面。", "可能把受欢迎误当成减废已证实；回看末段。", "可能抓到成本细节，却漏掉全文重点。", "与末段扩展计划冲突。"],
+      "next_action": "用一句话写出“项目价值＋尚未证实的影响”，再练新文主旨题。"
+    },
+    {
+      "id": "q2", "type": "single", "skill": "数字与细节",
+      "prompt": "Why could the figure of 186 visits not show how many objects had been saved?",
+      "options": ["The volunteers forgot to record whether visitors brought objects.", "One visit and one repaired object were not necessarily the same thing.", "Only students with bicycles were counted.", "The desk did not ask whether an object was working again."],
+      "answer": [1], "source_id": "passage-a", "location": "第 2 段",
+      "evidence": "some visitors came back with the same object, while others brought several objects on one visit.",
+      "explanation": "B 对应同一物品多次来、一次带多件；visits 不等于获救物品数。其他选项与原文不符。",
+      "hint": "先区分统计单位：visits 和 objects。",
+      "option_feedback": ["漏看了志愿者每次结束时有记录。", "区分了来访次数和物品数量。", "把举例误当成唯一统计对象。", "与文中的访问后询问相反。"],
+      "next_action": "给文中每个数字标注对象与时间：人、来访、物品不能互换。"
+    },
+    {
+      "id": "q3", "type": "single", "skill": "推断边界",
+      "prompt": "What can be inferred about the visitors to the repair desk?",
+      "options": ["They represent the repair habits of every student on campus.", "They were likely more interested in repair than some non-visitors.", "They all learned to fix a device on their first visit.", "They had all stopped buying replacement objects."],
+      "answer": [1], "source_id": "passage-a", "location": "第 5 段",
+      "evidence": "People who chose to visit a repair desk were probably already more interested in repair than other students.",
+      "explanation": "B 保留 probably 的谨慎程度和访客范围。A 扩大到全校；C、D 的 all 没有依据。",
+      "hint": "圈出 probably 与 people who chose to visit。",
+      "option_feedback": ["可能把自选访客当成全校代表。", "保留了原文的可能性和人群边界。", "all 和 first visit 比原文更绝对。", "把愿意修推成不再买替代品，缺少证据。"],
+      "next_action": "圈限定词，检查选项是否把“部分／可能”改成“所有／确定”。"
+    },
+    {
+      "id": "q4", "type": "single", "skill": "语境词义",
+      "prompt": "What does the word “friction” in paragraph 3 most nearly mean?",
+      "options": ["A disagreement among the volunteers.", "A physical force created by tools.", "Small practical barriers that discourage an action.", "The price of buying replacement parts."],
+      "answer": [2], "source_id": "passage-a", "location": "第 3 段",
+      "evidence": "a set of small difficulties that makes a useful action less likely to happen.",
+      "explanation": "C 是作者在上下文中给出的定义。B 是常见物理意义，不适合这里的比喻；D 只覆盖一个因素。",
+      "hint": "读冒号后作者给出的解释，不只用词典本义。",
+      "option_feedback": ["把工具操作误读为志愿者争执。", "用了单词本义，没结合比喻。", "依据上下文识别了定义。", "只抓到 cost，没有覆盖其他阻碍。"],
+      "next_action": "先用前后句重写词义，再核对选项。"
+    },
+    {
+      "id": "q5", "type": "single", "skill": "作者态度",
+      "prompt": "How does the writer view the repair desk?",
+      "options": ["Completely dismissive because some repairs failed.", "Supportive but cautious about claims of wider impact.", "Certain that it has transformed all students' habits.", "Uninterested in what visitors learned."],
+      "answer": [1], "source_id": "passage-a", "location": "第 4—5 段",
+      "evidence": "The organizers support the idea, but they are cautious about using the first term's figures as proof",
+      "explanation": "B 对应 support 与 cautious。A 忽略肯定；C 夸大影响；D 与记录学习成果相反。",
+      "hint": "留意 but 前后的评价词。",
+      "option_feedback": ["只看到失败，忽略肯定。", "识别了支持与谨慎并存。", "把谨慎评价误读成确定结论。", "与记录学习成果相反。"],
+      "next_action": "用两个词概括态度，再到新短文找转折和限制。"
+    }
+  ],
+  "followups": [
+    {
+      "id": "f1", "target_id": "q1", "type": "single", "skill": "主旨概括",
+      "prompt": "What is the main idea of Passage B?",
+      "options": ["The seat map is useful, but its limits and effects need clearer evaluation.", "A seat map can guarantee every student a desk.", "Students have stopped using the library since the map appeared.", "The library plans to remove all sensors immediately."],
+      "answer": [0], "source_id": "passage-b", "location": "第 1—3 段",
+      "evidence": "The staff viewed the map as a useful guide, not a guarantee",
+      "explanation": "A 兼顾便利与局限；其他选项都增加了绝对结论。",
+      "hint": "把便利和局限连起来看。"
+    },
+    {
+      "id": "f2", "target_id": "q2", "type": "single", "skill": "数字与细节",
+      "prompt": "What did the number 1,200 refer to?",
+      "options": ["Students who found an empty seat each day.", "Students who opened the map at least once in its first month.", "Sensors installed across the library.", "Students who answered the later survey."],
+      "answer": [1], "source_id": "passage-b", "location": "第 1 段",
+      "evidence": "In the first month, 1,200 students opened the map at least once.",
+      "explanation": "B 保留时间和统计对象；后来的调查是 150 名多次使用者。",
+      "hint": "给数字标注对象和时间。"
+    },
+    {
+      "id": "f3", "target_id": "q3", "type": "single", "skill": "推断边界",
+      "prompt": "Why did the library plan a survey that included non-users?",
+      "options": ["The first survey did not represent everyone who might use the library.", "The map had already been proved useless for all students.", "Sensors can only be repaired by non-users.", "Every non-user had complained about the map."],
+      "answer": [0], "source_id": "passage-b", "location": "第 2—3 段",
+      "evidence": "those who never used the map were not included in the survey.",
+      "explanation": "A 是补充非使用者的原因；其他选项加入了原文没有的断言。",
+      "hint": "第一次调查包含了谁、没包含谁？"
+    },
+    {
+      "id": "f4", "target_id": "q4", "type": "single", "skill": "语境词义",
+      "prompt": "What does “guide” suggest in the final sentence?",
+      "options": ["A person employed to show students around.", "A helpful indication rather than a certain promise.", "An official rule that reserves a seat.", "A written exam preparation book."],
+      "answer": [1], "source_id": "passage-b", "location": "第 3 段",
+      "evidence": "a useful guide, not a guarantee",
+      "explanation": "B 对应 not a guarantee；这里不是导游或书。",
+      "hint": "看 guide 后面的对比词。"
+    },
+    {
+      "id": "f5", "target_id": "q5", "type": "single", "skill": "作者态度",
+      "prompt": "How did the library respond to the map's problems?",
+      "options": ["It treated the trial as perfect and made no changes.", "It abandoned the map after the first month.", "It kept the useful idea while explaining and improving its limits.", "It claimed that users' grades had risen."],
+      "answer": [2], "source_id": "passage-b", "location": "第 3 段",
+      "evidence": "Rather than call the trial a complete success or abandon it, the library decided to explain the delay on the screen and improve the sensors.",
+      "explanation": "C 保留价值与改进态度；A、B 是被排除的极端；D 没有成绩数据。",
+      "hint": "注意 Rather than 后的两个极端和真正采取的行动。"
+    }
+  ]
+}
