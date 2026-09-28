@@ -30,7 +30,7 @@
 
 ## 在豆包工作里怎么用
 
-GitHub 链接本身不会自动把 Skill 安装到豆包。下载本仓库的 ZIP，解压后上传 `shui-study-coach` Skill 文件夹或上传整理好的 Skill ZIP 到你自己的豆包工作入口；启用后，在对话里直接发送下面这段：
+GitHub 链接本身不会自动把 Skill 安装到豆包。可直接下载 [发布包 ZIP](https://github.com/XshuiAi/shui-study-coach/releases/latest/download/shui-study-coach-0.2.0.zip)，解压后上传 `shui-study-coach` Skill 文件夹或上传整理好的 Skill ZIP 到你自己的豆包工作入口；启用后，在对话里直接发送下面这段：
 
 ```text
 使用小水学习陪练。带我体验内置的六级仔细阅读案例。先告诉我这次考什么、材料是什么、几道题；做完后按我的错题讲解，再换一篇材料出新题复测。
