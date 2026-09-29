@@ -2,11 +2,13 @@
 
 ## 安装
 
-1. 下载 GitHub 仓库 ZIP，解压。
-2. 在豆包工作中进入技能上传入口，上传仓库根目录的 Skill 文件夹，或上传发布页提供的 Skill ZIP。
+1. 下载发布包：<https://github.com/XshuiAi/shui-study-coach/releases/latest/download/shui-study-coach-0.2.1.zip>，解压。
+2. 在豆包工作中进入技能上传入口，上传解压后得到的整个 `shui-study-coach` 文件夹。
 3. 启用“小水学习陪练”，新建工作对话。
 
 不同账户和版本的入口名称可能不同。GitHub 用于领取文件和查看说明；安装仍由每位使用者在自己的豆包工作里完成。
+
+需要转发给别人时，直接发送仓库里的 [开始使用](../START-HERE.md) 内容即可。
 
 ## 首次体验
 
