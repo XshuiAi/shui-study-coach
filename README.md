@@ -7,7 +7,7 @@
 ## 发给别人的链接
 
 - 看介绍、案例和横版图片：[GitHub 仓库](https://github.com/XshuiAi/shui-study-coach)
-- 直接下载 Skill：[下载 ZIP](https://github.com/XshuiAi/shui-study-coach/releases/latest/download/shui-study-coach-0.2.1.zip)
+- 直接下载 Skill：[下载 ZIP](https://github.com/XshuiAi/shui-study-coach/releases/latest/download/shui-study-coach-0.3.0.zip)
 - 可复制给对方的完整说明：[开始使用](START-HERE.md)
 
 ![小水学习陪练](docs/cover.png)
@@ -36,11 +36,18 @@
 
 ## 在豆包工作里怎么用
 
-GitHub 链接本身不会自动把 Skill 安装到豆包。下载 [发布包 ZIP](https://github.com/XshuiAi/shui-study-coach/releases/latest/download/shui-study-coach-0.2.1.zip)，解压后上传 `shui-study-coach` Skill 文件夹到自己豆包工作里的技能上传入口；启用后，在对话里直接发送下面这段：
+复制到豆包工作，直接从 GitHub 安装或更新：
 
 ```text
-使用小水学习陪练。带我体验内置的六级仔细阅读案例。先告诉我这次考什么、材料是什么、几道题；做完后按我的错题讲解，再换一篇材料出新题复测。
+请从 GitHub 安装或更新「小水学习陪练」：
+https://github.com/XshuiAi/shui-study-coach
+
+它能根据学习资料出题、讲解错因、换题复测，并记录复习计划和进度。
+
+初始化时，先问我学什么、有哪些资料、可用时间和考试日期；等我回答后再生成练习网页。可以先给我一个可选的六级案例入口，供我体验。
 ```
+
+已生成的旧网页不会自动更新，请让豆包用新版模板重新生成；重要答题记录先导出。
 
 用自己的资料时，先在 AI 对话里上传课件、教材章节或自己有权使用的试卷，再发送：
 
@@ -53,6 +60,15 @@ GitHub 链接本身不会自动把 Skill 安装到豆包。下载 [发布包 ZIP
 ![续学记录](docs/cards/07-续学记录.png)
 
 ![安装与口令](docs/cards/08-安装与口令.png)
+
+## 学习页面
+
+- 首页：开始或继续练习、查看结果，返回时保留本轮进度。
+- 今日资料：列出本次实际使用的材料和范围；新文件在 AI 对话里上传。
+- 复习计划：修改目标、用时和日期，交卷后根据薄弱点生成建议，可打卡、导出。
+- 学习记录：查看本卷最近 20 次成绩摘要，导出完整答案或继续本轮。
+
+计划和记录保存在当前浏览器，暂不汇总不同网页、不同设备的所有学习内容。
 
 ## 能做与边界
 
@@ -69,7 +85,7 @@ GitHub 链接本身不会自动把 Skill 安装到豆包。下载 [发布包 ZIP
 python3 -m unittest discover -s tests -p 'test_*.py'
 ```
 
-已验证：14 项 Python 测试；CET6 演示通过浏览器自动化检查。实际豆包导入和网页生成能力会受账户与宿主环境影响，首次使用请自己试一次。
+已验证：14 项 Python 测试；CET6 演示通过浏览器自动化检查。新版另通过浏览器交互回归，包括禁用弹窗与本地存储的 iframe。用户提供的旧豆包网页与仓库旧版案例一致；新版尚待豆包端重新生成验证。
 
 ## 作者、方法参考与许可
 

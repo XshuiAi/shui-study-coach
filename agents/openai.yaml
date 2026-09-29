@@ -1,4 +1,4 @@
 interface:
   display_name: "小水学习陪练"
   short_description: "把课件变成网页自测，讲清错因、检验新题，并带着记录继续学习。"
-  default_prompt: "使用 $shui-study-coach，根据我提供的资料生成一份短自测卷，交卷后帮我分析错因并安排复习。"
+  default_prompt: "使用 $shui-study-coach，先问清我的学习目标、资料和可用时间，等我回答后再安排练习；案例只作为可选体验。"
